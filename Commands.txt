@@ -1,0 +1,6 @@
+.\bin\logstash.bat -f .\config\pipelines\logstash-kafka.config
+
+.\bin\logstash.bat -f .\config\pipelines\logstash-kafka-2.config
+PS C:\Windows\system32> SETX /m LS_JAVA_HOME "C:\Program Files\Java\jdk1.8.0_144"
+
+PS C:\Windows\system32> SETX /m PATH "$env:PATH;C:\Program Files\Java\jdk1.8.0_144\bin;"
